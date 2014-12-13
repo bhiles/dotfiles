@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Take JSON data and display it nicely
+
+python -mjson.tool
