@@ -11,3 +11,5 @@ fi
 
 alias memacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias octave='/Applications/Octave.app/Contents/Resources/bin/octave'
+alias copy='pbcopy'
+alias cwd='pwd|pbcopy'
