@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Takes a hex argument and returns its decimal value
+
+# convert to upper case
+hex=$(echo "$1" | tr '[:lower:]' '[:upper:]')
+
+echo "ibase=16; $hex" | bc
